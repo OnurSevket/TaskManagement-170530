@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Entities", "00-Entities", "{DCC82156-638C-4317-8935-8450858CD031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{70CC77AE-E0A7-4D61-B227-D37D7C75D01A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-DAL", "01-DAL", "{070546F5-CDCA-4EA3-A758-7B78FCE3D6DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{7461AD03-2935-4427-AF46-2C5C3A91EFF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Business Logic Layer", "02-Business Logic Layer", "{559ECC71-7FFA-44B5-B1F3-392FDFD8A31F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{3DEB2203-DD74-401A-8A09-FA14D1F77F27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-UserInterface", "03-UserInterface", "{F1E872CB-36EC-47CA-AEF8-4097441DC50F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormUI", "WinFormUI\WinFormUI.csproj", "{3DA23F6A-D5BA-40D3-B24F-6556095A31DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70CC77AE-E0A7-4D61-B227-D37D7C75D01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CC77AE-E0A7-4D61-B227-D37D7C75D01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CC77AE-E0A7-4D61-B227-D37D7C75D01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CC77AE-E0A7-4D61-B227-D37D7C75D01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7461AD03-2935-4427-AF46-2C5C3A91EFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7461AD03-2935-4427-AF46-2C5C3A91EFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7461AD03-2935-4427-AF46-2C5C3A91EFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7461AD03-2935-4427-AF46-2C5C3A91EFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DEB2203-DD74-401A-8A09-FA14D1F77F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEB2203-DD74-401A-8A09-FA14D1F77F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEB2203-DD74-401A-8A09-FA14D1F77F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEB2203-DD74-401A-8A09-FA14D1F77F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA23F6A-D5BA-40D3-B24F-6556095A31DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA23F6A-D5BA-40D3-B24F-6556095A31DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA23F6A-D5BA-40D3-B24F-6556095A31DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA23F6A-D5BA-40D3-B24F-6556095A31DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70CC77AE-E0A7-4D61-B227-D37D7C75D01A} = {DCC82156-638C-4317-8935-8450858CD031}
+		{7461AD03-2935-4427-AF46-2C5C3A91EFF9} = {070546F5-CDCA-4EA3-A758-7B78FCE3D6DA}
+		{3DEB2203-DD74-401A-8A09-FA14D1F77F27} = {559ECC71-7FFA-44B5-B1F3-392FDFD8A31F}
+		{3DA23F6A-D5BA-40D3-B24F-6556095A31DD} = {F1E872CB-36EC-47CA-AEF8-4097441DC50F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dilbirinorhan.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Entities\\Entities.csproj
+		SccProjectTopLevelParentUniqueName1 = TeamManagement.sln
+		SccProjectName1 = Entities
+		SccLocalPath1 = Entities
+		SccProjectUniqueName2 = DataAccessLayer\\DataAccessLayer.csproj
+		SccProjectTopLevelParentUniqueName2 = TeamManagement.sln
+		SccProjectName2 = DataAccessLayer
+		SccLocalPath2 = DataAccessLayer
+		SccProjectUniqueName3 = BLL\\BLL.csproj
+		SccProjectTopLevelParentUniqueName3 = TeamManagement.sln
+		SccProjectName3 = BLL
+		SccLocalPath3 = BLL
+		SccProjectUniqueName4 = WinFormUI\\WinFormUI.csproj
+		SccProjectTopLevelParentUniqueName4 = TeamManagement.sln
+		SccProjectName4 = WinFormUI
+		SccLocalPath4 = WinFormUI
+	EndGlobalSection
+EndGlobal
